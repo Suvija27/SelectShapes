@@ -6,6 +6,9 @@ const refreshIDLength = 4;
 const seed = {
 	count: config.countStart,
 	refreshID: rndString(refreshIDLength),
+	shape: 'circle',
+	color: 'blue',
+	size: 'medium',
 };
 
 export default seed;
